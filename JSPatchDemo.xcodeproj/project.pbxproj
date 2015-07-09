@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6186203D4FB8E693CB5B3502 /* libPods-JSPatchDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD204DE5B59D7A0927B0B50 /* libPods-JSPatchDemo.a */; };
+		9EDF87F91B4BC70100B20D25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF87F81B4BC70100B20D25 /* main.m */; };
+		9EDF87FC1B4BC70100B20D25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF87FB1B4BC70100B20D25 /* AppDelegate.m */; };
+		9EDF87FF1B4BC70100B20D25 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF87FE1B4BC70100B20D25 /* TestViewController.m */; };
+		9EDF88021B4BC70100B20D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF88001B4BC70100B20D25 /* Main.storyboard */; };
+		9EDF88041B4BC70100B20D25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF88031B4BC70100B20D25 /* Images.xcassets */; };
+		9EDF88071B4BC70100B20D25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF88051B4BC70100B20D25 /* LaunchScreen.xib */; };
+		9EDF88131B4BC70200B20D25 /* JSPatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88121B4BC70200B20D25 /* JSPatchDemoTests.m */; };
+		9EDF882A1B4BD26500B20D25 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88201B4BD26500B20D25 /* JPCGContext.m */; };
+		9EDF882B1B4BD26500B20D25 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88221B4BD26500B20D25 /* JPCGGeometry.m */; };
+		9EDF882C1B4BD26500B20D25 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88241B4BD26500B20D25 /* JPCGTransform.m */; };
+		9EDF882D1B4BD26500B20D25 /* JPInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88261B4BD26500B20D25 /* JPInclude.m */; };
+		9EDF882E1B4BD26500B20D25 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88281B4BD26500B20D25 /* JPEngine.m */; };
+		9EDF882F1B4BD26500B20D25 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF88291B4BD26500B20D25 /* JSPatch.js */; };
+		9EDF88321B4BD8D100B20D25 /* SomeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88311B4BD8D100B20D25 /* SomeTestViewController.m */; };
+		9EDF88351B4BED1F00B20D25 /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF88341B4BED1F00B20D25 /* TestTableViewController.m */; };
+		9EDF88371B4BFBE300B20D25 /* DemoJS.js in Resources */ = {isa = PBXBuildFile; fileRef = 9EDF88361B4BFBE300B20D25 /* DemoJS.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EDF880D1B4BC70200B20D25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDF87EB1B4BC70100B20D25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDF87F21B4BC70100B20D25;
+			remoteInfo = JSPatchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		194207BBF2150C81942BE54C /* Pods-JSPatchDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2EA47C05F6A116AAF2EA65C7 /* Pods-JSPatchDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSPatchDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD204DE5B59D7A0927B0B50 /* libPods-JSPatchDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatchDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF87F31B4BC70100B20D25 /* JSPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF87F71B4BC70100B20D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF87F81B4BC70100B20D25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EDF87FA1B4BC70100B20D25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EDF87FB1B4BC70100B20D25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EDF87FD1B4BC70100B20D25 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		9EDF87FE1B4BC70100B20D25 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9EDF88011B4BC70100B20D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EDF88031B4BC70100B20D25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9EDF88061B4BC70100B20D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9EDF880C1B4BC70200B20D25 /* JSPatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDF88111B4BC70200B20D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDF88121B4BC70200B20D25 /* JSPatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchDemoTests.m; sourceTree = "<group>"; };
+		9EDF881F1B4BD26500B20D25 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		9EDF88201B4BD26500B20D25 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		9EDF88211B4BD26500B20D25 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		9EDF88221B4BD26500B20D25 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		9EDF88231B4BD26500B20D25 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		9EDF88241B4BD26500B20D25 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		9EDF88251B4BD26500B20D25 /* JPInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPInclude.h; sourceTree = "<group>"; };
+		9EDF88261B4BD26500B20D25 /* JPInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPInclude.m; sourceTree = "<group>"; };
+		9EDF88271B4BD26500B20D25 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		9EDF88281B4BD26500B20D25 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		9EDF88291B4BD26500B20D25 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+		9EDF88301B4BD8D100B20D25 /* SomeTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeTestViewController.h; sourceTree = "<group>"; };
+		9EDF88311B4BD8D100B20D25 /* SomeTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeTestViewController.m; sourceTree = "<group>"; };
+		9EDF88331B4BED1F00B20D25 /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		9EDF88341B4BED1F00B20D25 /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		9EDF88361B4BFBE300B20D25 /* DemoJS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DemoJS.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDF87F01B4BC70100B20D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6186203D4FB8E693CB5B3502 /* libPods-JSPatchDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF88091B4BC70200B20D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FA65D4C77BE77AB2F8010C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EA47C05F6A116AAF2EA65C7 /* Pods-JSPatchDemo.debug.xcconfig */,
+				194207BBF2150C81942BE54C /* Pods-JSPatchDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		561C20111FFA3A1FB3120C7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD204DE5B59D7A0927B0B50 /* libPods-JSPatchDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EDF87EA1B4BC70100B20D25 = {
+			isa = PBXGroup;
+			children = (
+				9EDF87F51B4BC70100B20D25 /* JSPatchDemo */,
+				9EDF880F1B4BC70200B20D25 /* JSPatchDemoTests */,
+				9EDF87F41B4BC70100B20D25 /* Products */,
+				08FA65D4C77BE77AB2F8010C /* Pods */,
+				561C20111FFA3A1FB3120C7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EDF87F41B4BC70100B20D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF87F31B4BC70100B20D25 /* JSPatchDemo.app */,
+				9EDF880C1B4BC70200B20D25 /* JSPatchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EDF87F51B4BC70100B20D25 /* JSPatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF88361B4BFBE300B20D25 /* DemoJS.js */,
+				9EDF881C1B4BD26500B20D25 /* JSPatch */,
+				9EDF87FA1B4BC70100B20D25 /* AppDelegate.h */,
+				9EDF87FB1B4BC70100B20D25 /* AppDelegate.m */,
+				9EDF87FD1B4BC70100B20D25 /* TestViewController.h */,
+				9EDF87FE1B4BC70100B20D25 /* TestViewController.m */,
+				9EDF88001B4BC70100B20D25 /* Main.storyboard */,
+				9EDF88031B4BC70100B20D25 /* Images.xcassets */,
+				9EDF88051B4BC70100B20D25 /* LaunchScreen.xib */,
+				9EDF87F61B4BC70100B20D25 /* Supporting Files */,
+				9EDF88301B4BD8D100B20D25 /* SomeTestViewController.h */,
+				9EDF88311B4BD8D100B20D25 /* SomeTestViewController.m */,
+				9EDF88331B4BED1F00B20D25 /* TestTableViewController.h */,
+				9EDF88341B4BED1F00B20D25 /* TestTableViewController.m */,
+			);
+			path = JSPatchDemo;
+			sourceTree = "<group>";
+		};
+		9EDF87F61B4BC70100B20D25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF87F71B4BC70100B20D25 /* Info.plist */,
+				9EDF87F81B4BC70100B20D25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EDF880F1B4BC70200B20D25 /* JSPatchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF88121B4BC70200B20D25 /* JSPatchDemoTests.m */,
+				9EDF88101B4BC70200B20D25 /* Supporting Files */,
+			);
+			path = JSPatchDemoTests;
+			sourceTree = "<group>";
+		};
+		9EDF88101B4BC70200B20D25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF88111B4BC70200B20D25 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EDF881C1B4BD26500B20D25 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF881D1B4BD26500B20D25 /* Extensions */,
+				9EDF88271B4BD26500B20D25 /* JPEngine.h */,
+				9EDF88281B4BD26500B20D25 /* JPEngine.m */,
+				9EDF88291B4BD26500B20D25 /* JSPatch.js */,
+			);
+			path = JSPatch;
+			sourceTree = SOURCE_ROOT;
+		};
+		9EDF881D1B4BD26500B20D25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF881E1B4BD26500B20D25 /* CoreGraphics */,
+				9EDF88251B4BD26500B20D25 /* JPInclude.h */,
+				9EDF88261B4BD26500B20D25 /* JPInclude.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EDF881E1B4BD26500B20D25 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF881F1B4BD26500B20D25 /* JPCGContext.h */,
+				9EDF88201B4BD26500B20D25 /* JPCGContext.m */,
+				9EDF88211B4BD26500B20D25 /* JPCGGeometry.h */,
+				9EDF88221B4BD26500B20D25 /* JPCGGeometry.m */,
+				9EDF88231B4BD26500B20D25 /* JPCGTransform.h */,
+				9EDF88241B4BD26500B20D25 /* JPCGTransform.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EDF87F21B4BC70100B20D25 /* JSPatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDF88161B4BC70200B20D25 /* Build configuration list for PBXNativeTarget "JSPatchDemo" */;
+			buildPhases = (
+				E4D229FFAC9FC36FC23B1B67 /* Check Pods Manifest.lock */,
+				9EDF87EF1B4BC70100B20D25 /* Sources */,
+				9EDF87F01B4BC70100B20D25 /* Frameworks */,
+				9EDF87F11B4BC70100B20D25 /* Resources */,
+				E2B3B8ECB0E5DA2C5170200B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatchDemo;
+			productName = JSPatchDemo;
+			productReference = 9EDF87F31B4BC70100B20D25 /* JSPatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EDF880B1B4BC70200B20D25 /* JSPatchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDF88191B4BC70200B20D25 /* Build configuration list for PBXNativeTarget "JSPatchDemoTests" */;
+			buildPhases = (
+				9EDF88081B4BC70200B20D25 /* Sources */,
+				9EDF88091B4BC70200B20D25 /* Frameworks */,
+				9EDF880A1B4BC70200B20D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDF880E1B4BC70200B20D25 /* PBXTargetDependency */,
+			);
+			name = JSPatchDemoTests;
+			productName = JSPatchDemoTests;
+			productReference = 9EDF880C1B4BC70200B20D25 /* JSPatchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EDF87EB1B4BC70100B20D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = chenyun;
+				TargetAttributes = {
+					9EDF87F21B4BC70100B20D25 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9EDF880B1B4BC70200B20D25 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9EDF87F21B4BC70100B20D25;
+					};
+				};
+			};
+			buildConfigurationList = 9EDF87EE1B4BC70100B20D25 /* Build configuration list for PBXProject "JSPatchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EDF87EA1B4BC70100B20D25;
+			productRefGroup = 9EDF87F41B4BC70100B20D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDF87F21B4BC70100B20D25 /* JSPatchDemo */,
+				9EDF880B1B4BC70200B20D25 /* JSPatchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EDF87F11B4BC70100B20D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF88021B4BC70100B20D25 /* Main.storyboard in Resources */,
+				9EDF88071B4BC70100B20D25 /* LaunchScreen.xib in Resources */,
+				9EDF882F1B4BD26500B20D25 /* JSPatch.js in Resources */,
+				9EDF88041B4BC70100B20D25 /* Images.xcassets in Resources */,
+				9EDF88371B4BFBE300B20D25 /* DemoJS.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF880A1B4BC70200B20D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2B3B8ECB0E5DA2C5170200B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSPatchDemo/Pods-JSPatchDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D229FFAC9FC36FC23B1B67 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EDF87EF1B4BC70100B20D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF882C1B4BD26500B20D25 /* JPCGTransform.m in Sources */,
+				9EDF882B1B4BD26500B20D25 /* JPCGGeometry.m in Sources */,
+				9EDF882D1B4BD26500B20D25 /* JPInclude.m in Sources */,
+				9EDF87FF1B4BC70100B20D25 /* TestViewController.m in Sources */,
+				9EDF882A1B4BD26500B20D25 /* JPCGContext.m in Sources */,
+				9EDF882E1B4BD26500B20D25 /* JPEngine.m in Sources */,
+				9EDF87FC1B4BC70100B20D25 /* AppDelegate.m in Sources */,
+				9EDF88351B4BED1F00B20D25 /* TestTableViewController.m in Sources */,
+				9EDF88321B4BD8D100B20D25 /* SomeTestViewController.m in Sources */,
+				9EDF87F91B4BC70100B20D25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDF88081B4BC70200B20D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF88131B4BC70200B20D25 /* JSPatchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EDF880E1B4BC70200B20D25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDF87F21B4BC70100B20D25 /* JSPatchDemo */;
+			targetProxy = 9EDF880D1B4BC70200B20D25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EDF88001B4BC70100B20D25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDF88011B4BC70100B20D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EDF88051B4BC70100B20D25 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDF88061B4BC70100B20D25 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EDF88141B4BC70200B20D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EDF88151B4BC70200B20D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDF88171B4BC70200B20D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA47C05F6A116AAF2EA65C7 /* Pods-JSPatchDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EDF88181B4BC70200B20D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 194207BBF2150C81942BE54C /* Pods-JSPatchDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSPatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EDF881A1B4BC70200B20D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSPatchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
+			};
+			name = Debug;
+		};
+		9EDF881B1B4BC70200B20D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSPatchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSPatchDemo.app/JSPatchDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EDF87EE1B4BC70100B20D25 /* Build configuration list for PBXProject "JSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF88141B4BC70200B20D25 /* Debug */,
+				9EDF88151B4BC70200B20D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDF88161B4BC70200B20D25 /* Build configuration list for PBXNativeTarget "JSPatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF88171B4BC70200B20D25 /* Debug */,
+				9EDF88181B4BC70200B20D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDF88191B4BC70200B20D25 /* Build configuration list for PBXNativeTarget "JSPatchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDF881A1B4BC70200B20D25 /* Debug */,
+				9EDF881B1B4BC70200B20D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EDF87EB1B4BC70100B20D25 /* Project object */;
+}
